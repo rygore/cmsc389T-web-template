@@ -1,7 +1,7 @@
 name: deployment workflow
 on:
-	push:
-		branches: [master]
+      push:
+         branches: [master]
 jobs:
         job_one:
                 name: Deploy
@@ -16,4 +16,4 @@ jobs:
                                 port: ${{ secrets.PORT }}
                                 script: |
                                         cd TestRepo
-					git pull
+                                        git pull
