@@ -4,7 +4,7 @@ on:
 jobs:
         job_one:
                 name: Clean
-                runs-on: ubunt-latest
+                runs-on: ubuntu-latest
                 steps:
                         - name: testing
                           uses: appleboy/ssh-action@master
