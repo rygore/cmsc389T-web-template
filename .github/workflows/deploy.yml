@@ -16,5 +16,5 @@ jobs:
                                 port: ${{ secrets.PORT }}
                                 script: |
                                         cd ../pub/
-                                        cd TestRepo
+                                        cd cmsc389T-web-template
                                         git pull
