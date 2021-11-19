@@ -16,4 +16,4 @@ jobs:
                                 script: |
                                         cd ../pub/
                                         unalias rm
-                                        rm -rf <Repo-Name>
+                                        rm -rf cmsc389T-web-template/

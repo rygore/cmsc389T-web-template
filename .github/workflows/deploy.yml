@@ -1,7 +1,7 @@
 name: deployment workflow
 on:
       push:
-         branches: [master]
+         branches: [main]
 jobs:
         job_one:
                 name: Deploy
@@ -16,5 +16,5 @@ jobs:
                                 port: ${{ secrets.PORT }}
                                 script: |
                                         cd ../pub/
-                                        cd TestRepo
+                                        cd cmsc389T-web-template
                                         git pull
